@@ -1,7 +1,12 @@
 // Your code here
 class Cat {
+  constructor(name){
+    this.name = name;
+  }
   
-  speak();
+  speak() {
+    return `${this.name} says meow!`
+  }
   
 }
 
