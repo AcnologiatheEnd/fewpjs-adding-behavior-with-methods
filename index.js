@@ -16,10 +16,17 @@ class Dog {
   }
   
   speak() {
-    return `${this.name} says meow!`
+    return `${this.name} says woof!`
   }
 }
 
 class Bird {
+  constructor(name, gender){
+    this.name = name;
+    this.gender = gender;
+  }
   
+  speak() {
+    return `${this.name} says meow!`
+  }
 }
